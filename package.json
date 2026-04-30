@@ -1,6 +1,6 @@
 {
   "name": "@mady9613/chess-engine",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "type": "module",
   "description": "Comprehensive chess engine for move validation and game state management.",
   "main": "src/index.js",
