@@ -2,33 +2,26 @@
   "name": "@mady9613/chess-engine",
   "version": "1.0.0",
   "type": "module",
-  "description": "Complete chess engine with move validation, FEN support, and utilities",
+  "description": "Chess engine with move validation, FEN support, and utilities",
   "main": "src/index.js",
-  "exports": {
-    ".": "./src/index.js",
-    "./validators": "./src/validators/index.js",
-    "./pieces": "./src/pieces/index.js",
-    "./utils": "./src/utils/index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhu9613/chess-engine.git"
   },
-  "files": [
-    "src/",
-    "README.md",
-    "LICENSE"
-  ],
+  "bugs": {
+    "url": "https://github.com/madhu9613/chess-engine/issues"
+  },
+  "homepage": "https://github.com/madhu9613/chess-engine#readme",
+  "author": "Madhujya Rajkhowa",
+  "license": "MIT",
   "keywords": [
     "chess",
     "chess-engine",
-    "move-validation",
-    "chess-logic",
-    "fen",
-    "san"
+    "move-validation"
   ],
-  "author": "mady9613",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mady9613/chess-engine"
-  },
+  "files": [
+    "src/"
+  ],
   "scripts": {
     "test": "node test.js"
   }
